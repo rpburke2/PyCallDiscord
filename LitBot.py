@@ -11,7 +11,7 @@ async def mine(ctx):
     await ctx.send('YA, YOURS!')
 
 @bot.command()
-async def alec(ctx):
+async def alec(ctx, ):
     await ctx.send('ya know what man... he really does!')
 
 @bot.command()
@@ -37,6 +37,10 @@ async def golf(ctx):
 @bot.command()
 async def dead(ctx):
     await ctx.send('dead game!')
+
+@bot.command()
+async def commands(ctx):
+    await ctx.send(['!alec', '!ian', '!trav', '!rob', '!conrad', '!mine', '!dead', '!golf'])
 
 
 bot.run(discord_token)
