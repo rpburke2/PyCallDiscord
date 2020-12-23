@@ -28,11 +28,15 @@ async def rob(ctx):
 
 @bot.command()
 async def conrad(ctx):
-    await ctx.send('WOW...literally..WOW')
+    await ctx.send('WOW...literally...WOW')
 
 @bot.command()
 async def golf(ctx):
     await ctx.send('with your ass!')
+
+@bot.command()
+async def dead(ctx):
+    await ctx.send('dead game!')
 
 
 bot.run(discord_token)
