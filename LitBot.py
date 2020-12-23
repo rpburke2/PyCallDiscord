@@ -36,10 +36,10 @@ async def golf(ctx):
 
 @bot.command()
 async def dead(ctx):
-    await ctx.send('dead game!')
+    await ctx.send('that game literally!')
 
 @bot.command()
-async def commands(ctx):
+async def commandlist(ctx):
     await ctx.send(['!alec', '!ian', '!trav', '!rob', '!conrad', '!mine', '!dead', '!golf'])
 
 
