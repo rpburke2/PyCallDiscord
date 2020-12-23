@@ -1,8 +1,10 @@
 import discord
 from discord.ext import commands
+from Config import discord_token
 
 bot = commands.Bot(command_prefix='!')
 
+##COMMAND LIST##
 
 @bot.command()
 async def mine(ctx):
@@ -33,7 +35,5 @@ async def golf(ctx):
     await ctx.send('with your ass!')
 
 
-
-
-bot.run('NzkxMTc0NjMyMDk0ODI2NTE2.X-LUyw.A5GYsnifcGjQJl3NbPnXaesPFvA')
+bot.run(discord_token)
 
