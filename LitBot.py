@@ -39,8 +39,10 @@ async def dead(ctx):
     await ctx.send('that game literally!')
 
 @bot.command()
-async def commandlist(ctx):
-    await ctx.send(['!alec', '!ian', '!trav', '!rob', '!conrad', '!mine', '!dead', '!golf'])
+async def litlist(ctx):
+    commandlist = []
+    commandlist.append('!alec', '!ian', '!trav', '!rob', '!conrad', '!mine', '!dead', '!golf')
+    await ctx.send(commandlist)
 
 
 bot.run(discord_token)
