@@ -44,6 +44,14 @@ async def dead(ctx):
     await ctx.send('that game literally!')
 
 @bot.command()
+async def huge(ctx):
+    await ctx.send('massive, really.')
+
+@bot.command()
+async def does(ctx):
+    await ctx.send('does Dolly Parton sleep on her back bud?!')
+
+@bot.command()
 async def wow(ctx):
     await ctx.send('WOW DUDE DOES YOURS!')
 
@@ -52,8 +60,16 @@ async def nah(ctx):
     await ctx.send('No dude..YOURS!')
 
 @bot.command()
-async def litcmd(ctx,):
-    msg = "Commands:   !alec  •  !ian  •  !rob  •  !trav  •  !gert  •  !conrad  •  !mine  •  !wow  •  !nah  •  !dead  •  !golf  •"
+async def iz(ctx):
+    await ctx.send('IZZZZZZZZZZZZZZZZZZZZZZZ!')
+
+@bot.command()
+async def lcj(ctx):
+    await ctx.send('3-10')
+
+@bot.command()
+async def litcmd(ctx):
+    msg = "Command List: \n•  !alec \n•  !ian \n•  !rob \n•  !trav \n•  !gert \n•  !conrad \n•  !mine \n•  !iz \n•  !wow \n•  !nah \n•  !dead \n•  !golf \n•  !huge \n•  !does \n"
     await ctx.send(msg)
 
 
