@@ -44,8 +44,16 @@ async def dead(ctx):
     await ctx.send('that game literally!')
 
 @bot.command()
+async def wow(ctx):
+    await ctx.send('WOW DUDE DOES YOURS!')
+
+@bot.command()
+async def nah(ctx):
+    await ctx.send('No dude..YOURS!')
+
+@bot.command()
 async def litcmd(ctx,):
-    msg = "|   !alec   |   !ian   |   !rob   |   !trav   |   !gert   |   !conrad   |   !mine   |   !dead   |   !golf   |"
+    msg = "COMMAND LIST =  !alec  •  !ian  •  !rob  •  !trav  •  !gert  •  !conrad  •  !mine  •  !wow  •  !nah  •  !dead  •  !golf  •"
     await ctx.send(msg)
 
 
