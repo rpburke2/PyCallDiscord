@@ -1,4 +1,5 @@
 import discord
+import inspect
 from discord.ext import commands
 from Config import discord_token
 
@@ -39,9 +40,9 @@ async def dead(ctx):
     await ctx.send('that game literally!')
 
 @bot.command()
-async def litcmd(ctx):
-    commandlist = ['!alec', '!ian', '!trav', '!rob', '!conrad', '!mine', '!dead', '!golf']
-    await ctx.send(commandlist)
+async def litcmd(ctx,):
+    msg = "[|   !alec   |], [|   !ian   |], [|   !rob   |], [|   !trav   |], [|   !conrad   |], [|   !mine   |], [|   !dead   |], [|   !golf   |]"
+    await ctx.send(msg)
 
 
 bot.run(discord_token)
