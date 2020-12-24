@@ -32,6 +32,10 @@ async def conrad(ctx):
     await ctx.send('WOW...literally...WOW')
 
 @bot.command()
+async def gert(ctx):
+    await ctx.send('whats the temp on that laptop bud?!')
+
+@bot.command()
 async def golf(ctx):
     await ctx.send('with your ass!')
 
@@ -41,7 +45,7 @@ async def dead(ctx):
 
 @bot.command()
 async def litcmd(ctx,):
-    msg = "[|   !alec   |], [|   !ian   |], [|   !rob   |], [|   !trav   |], [|   !conrad   |], [|   !mine   |], [|   !dead   |], [|   !golf   |]"
+    msg = "|   !alec   |   !ian   |   !rob   |   !trav   |   !gert   |   !conrad   |   !mine   |   !dead   |   !golf   |"
     await ctx.send(msg)
 
 
