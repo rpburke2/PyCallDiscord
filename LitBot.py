@@ -69,7 +69,7 @@ async def lcj(ctx):
 
 @bot.command()
 async def litcmd(ctx):
-    msg = "Command List: \n•  !alec \n•  !ian \n•  !rob \n•  !trav \n•  !gert \n•  !conrad \n•  !mine \n•  !iz \n•  !wow \n•  !nah \n•  !dead \n•  !golf \n•  !huge \n•  !does \n"
+    msg = "Command List: \n•  !alec \n•  !ian \n•  !rob \n•  !trav \n•  !gert \n•  !conrad \n•  !mine \n•  !iz \n•  !wow \n•  !nah \n•  !dead \n•  !golf \n•  !huge \n•  !does \n•  !lcj \n"
     await ctx.send(msg)
 
 
