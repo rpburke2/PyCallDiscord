@@ -53,7 +53,7 @@ async def nah(ctx):
 
 @bot.command()
 async def litcmd(ctx,):
-    msg = "COMMAND LIST =  !alec  •  !ian  •  !rob  •  !trav  •  !gert  •  !conrad  •  !mine  •  !wow  •  !nah  •  !dead  •  !golf  •"
+    msg = "Commands:   !alec  •  !ian  •  !rob  •  !trav  •  !gert  •  !conrad  •  !mine  •  !wow  •  !nah  •  !dead  •  !golf  •"
     await ctx.send(msg)
 
 
