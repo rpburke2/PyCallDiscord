@@ -3,7 +3,7 @@ import inspect
 from discord.ext import commands
 from Config import discord_token
 
-bot = commands.Bot(command_prefix='!')
+bot = commands.Bot(command_prefix='@')
 
 ##COMMAND LIST##
 
@@ -48,10 +48,6 @@ async def huge(ctx):
     await ctx.send('massive, really.')
 
 @bot.command()
-async def does(ctx):
-    await ctx.send('does Dolly Parton sleep on her back bud?!')
-
-@bot.command()
 async def wow(ctx):
     await ctx.send('WOW DUDE DOES YOURS!')
 
@@ -67,10 +63,6 @@ async def iz(ctx):
 async def lcj(ctx):
     await ctx.send('3-10')
 
-@bot.command()
-async def litcmd(ctx):
-    msg = "Command List: \n•  !alec \n•  !ian \n•  !rob \n•  !trav \n•  !gert \n•  !conrad \n•  !mine \n•  !iz \n•  !wow \n•  !nah \n•  !dead \n•  !golf \n•  !huge \n•  !does \n•  !lcj \n"
-    await ctx.send(msg)
 
 
 bot.run(discord_token)
