@@ -1,3 +1,5 @@
+import random
+from insults import wowDoes
 import discord
 import inspect
 from discord.ext import commands
@@ -63,6 +65,9 @@ async def iz(ctx):
 async def lcj(ctx):
     await ctx.send('3-10')
 
+@bot.command()
+async def does(ctx):
+    await ctx.send(random.choice(wowDoes))
 
 
 bot.run(discord_token)
