@@ -3,7 +3,7 @@ import inspect
 from discord.ext import commands
 from Config import discord_token
 
-bot = commands.Bot(command_prefix='@')
+bot = commands.Bot(command_prefix='.')
 
 ##COMMAND LIST##
 
