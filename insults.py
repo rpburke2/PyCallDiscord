@@ -19,4 +19,13 @@ wowDoes = [
     'Does a bear wipe its ass with a rabbit?', 
     'Does a wizard piss on his robes?', 
     'Is Ted Cruz a cunt?'
+    'Does a horse look back before hauling ass?'
+    'Does a bird split hairs for a squawk in the can?'
+    'Does Kevin Bacon wobble when he walks on his feet?'
+    'Does Tom Hanks have hair coming out his ass?'
+    'Does a sloth scoot twice in October?'
+    'Does a dog squeeze its ass in the wind?'
+    'Does your piss smell like holden crisps?'
+    '12 bucks.'
+    'Does the moose grease when he pumps his knees?'
 ]
