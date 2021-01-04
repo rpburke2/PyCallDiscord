@@ -1,4 +1,5 @@
 import random
+from string import Template
 from insults import wowDoes
 import discord
 import inspect
@@ -8,6 +9,15 @@ from Config import discord_token
 bot = commands.Bot(command_prefix='.')
 
 ##COMMAND LIST##
+
+@bot.command()
+async def create(ctx, name, message):
+    cmd_template = Template("@bot.command()\nasync def $name(ctx): await ctx.send('$msg')")
+    try:
+        exec(cmd_template.substitute(name=name, msg=message))
+        await ctx.send(f"Command '.{name}' created successfully!")
+    except:
+        await ctx.send(f"Command '.{name}' could not be created. Suck an egg, Travis!")
 
 @bot.command()
 async def mine(ctx):
