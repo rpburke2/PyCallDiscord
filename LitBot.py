@@ -11,6 +11,14 @@ bot = commands.Bot(command_prefix='.')
 ##COMMAND LIST##
 
 @bot.command()
+async def delete(ctx, name):
+    try:
+        exec(f"del {name}")
+        await ctx.send(f"Command '.{name}' deleted successfully!")
+    except:
+        await ctx.send(f"Command '.{name}' could not be deleted. Suck an egg, Travis!")
+
+@bot.command()
 async def create(ctx, name, message):
     cmd_template = Template("@bot.command()\nasync def $name(ctx): await ctx.send('$msg')")
     try:
